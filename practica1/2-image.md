@@ -4,13 +4,17 @@ Es un archivo único que contiene todos los programas, librerías, dependencias 
 
 
 ## ¿Cuál es la relación entre una imagen y un contenedor? 
-# COMPLETAR 
+# COMPLETAR:
+Una imagen es una plantilla de todas las configuraciones necesarias que definen el entorno de ejcución de una aplicación 
+El contenedor se crea en base a la plantilla de una imagen, por lo que podemos concluir que un contenedor es una instancia ejecutable de una imagen.
+Se pueden crear varios contenedores a partir de una misma imagen.
 
 ![Imagen y contenedores](imagenes/imagenYcontenedores.JPG)
 ## Comandos para imágenes
 
 ### Descargar imagen
 Descarga la última versión de la imagen disponible en el registro de Docker.
+
 
 ```
 docker pull <nombre imagen> 
@@ -24,12 +28,18 @@ docker pull <nombre imagen>:<tag>
 ```
 
 Descargar la imagen **hello-world**
+![alt text](image-1.png)
 # COMPLETAR
 
 **¿Qué es nginx**
+
+Es un servidor web y un proxy inverso
 # COMPLETAR 
 
 Descargar la imagen  **nginx** en la versión **alpine**
+![alt text](image-2.png)
+
+
 # COMPLETAR
 
 ### Listar imágenes
@@ -39,6 +49,8 @@ docker images
 ```
 
 # COLOCAR UNA CAPTURA DE PANTALLA DEL RESULTADO 
+
+![alt text](image-3.png)
 
 **Identificadores**
 En Docker, se utilizan varios identificadores para diferenciar de manera única los elementos del sistema, como imágenes, contenedores, volúmenes y redes. Estos identificadores son generados automáticamente por Docker y son únicos dentro del contexto del sistema Docker en el que se encuentran. 
