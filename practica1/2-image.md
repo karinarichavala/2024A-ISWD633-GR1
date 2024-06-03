@@ -64,9 +64,13 @@ docker inspect <nombre imagen>:<tag>
 ```
 
 Inspeccionar la imagen hello-world 
+
+![alt text](image-4.png)
 # COMPLETAR
 
 **¿Con qué algoritmo se está generando el ID de la imagen**
+
+Un algoritmo sha256
 # COMPLETAR
 
 ### Filtrar imágenes
@@ -84,6 +88,8 @@ docker rmi <nombre imagen>:<tag>
 ```
 
 Eliminar la imagen hello-world 
+
+![alt text](image-5.png)
 # COMPLETAR
 
 -f: Es la opción para forzar la eliminación de la imagen incluso si hay contenedores en ejecución que utilizan esa imagen.
