@@ -15,9 +15,13 @@ docker run -P -d --name <nombre contenedor> <nombre imagen>:<tag>
 No puedes mapear puertos a un contenedor existente directamente después de su creación con Docker. El mapeo de puertos debe especificarse en el momento de crear y ejecutar el contenedor.
 
 ### Crear contenedor de Jenkins puertos contenedor: 8080 (interface web) y 50000 (comunicación entre nodos) imagen: jenkins/jenkins:alpine3.18-jdk11
+
+![alt text](image.png)
 # COMPLETAR
 
 # COLOCAR UNA CAPTURA DE PANTALLA  DEL ACCESO http://localhost:8080
+
+![alt text](image-1.png)
 
 ### ¿Cómo obtener la contraseña solicitada?
 Para obtener la contraseña solicitada es necesario ingresar al contenedor.
@@ -32,8 +36,14 @@ docker exec <nombre contenedor> <comando> <argumentos opcionales>
 ```
 # COMPLETAR
 ### ¿Para qué se usa el comando ls?
+
+Lista el contenido de un directorio
 ### ¿Para qué sirve el argumento -l junto al comando ls?
+
+Muestra los archivos de unn directorio pero de forma etallada
 ### Usar el contenedor de jenkins creado previamente y ejecutar el comando ls con el argumento -l
+
+![alt text](image-2.png)
 # COMPLETAR
 # COLOCAR UNA CAPTURA DE PANTALLA
 
@@ -69,6 +79,8 @@ Ejecutar
 ```
 whoami
 ```
+
+![alt text](image-3.png)
 # COLOCAR UNA CAPTURA DE PANTALLA
 
 **Si se visualiza el mensaje command not found, considerar**
@@ -89,9 +101,14 @@ docker exec -it <nombre contenedor> <programa o comando>
 
 ### Ahora puedes acceder al contenedor de jenkins y obtener la contraseña ubicada en /var/jenkins_home/secrets/initialAdminPassword
 
+![alt text](image-4.png)
+
+
 # COMPLETAR
 
 ### Colocar una captura de pantalla de la ventana que aparece después de colocar la contraseña.
+
+![alt text](image-5.png)
 
 **Para este punto no es necesario continuar con la instalación de Jenkins**
 
