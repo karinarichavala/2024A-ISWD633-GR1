@@ -55,7 +55,7 @@ docker images
 **Identificadores**
 En Docker, se utilizan varios identificadores para diferenciar de manera única los elementos del sistema, como imágenes, contenedores, volúmenes y redes. Estos identificadores son generados automáticamente por Docker y son únicos dentro del contexto del sistema Docker en el que se encuentran. 
 
-### Inspeccionar una imagen
+### Inspeccionar una imagen 
 El comando docker inspect se utiliza para obtener información detallada sobre un objeto de Docker específico, como un contenedor, una imagen, un volumen o una red.  Proporciona información en formato JSON sobre el objeto especificado.
 
 ```
@@ -63,7 +63,7 @@ docker inspect <nombre imagen>
 docker inspect <nombre imagen>:<tag>
 ```
 
-Inspeccionar la imagen hello-world 
+Inspeccionar la imagen hello-world.
 
 ![alt text](image-4.png)
 # COMPLETAR
