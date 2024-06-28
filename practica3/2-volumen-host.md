@@ -9,22 +9,35 @@ docker run -d --name <nombre contenedor> -v <ruta carpeta host>:<ruta carpeta co
 ![Volúmenes](imagenes/volumen-host.PNG)
 # COMPLETAR CON EL COMANDO
 
+docker run -d --name srv-vol -p  8080:80 -v C:\Users\enriq\OneDrive\Documentos\html:/usr/share/nginx/html nginx:alpine
+
 ### ¿Qué sucede al ingresar al servidor de nginx?
+
+Aparece un mensaje con el código 403 de página no encontrada
+![alt text](image.png)
+
 # COMPLETAR CON LA RESPUESTA A LA PREGUNTA
 
 ### ¿Qué pasa con el archivo index.html del contenedor?
+
+No hay nada en el directoriol donde debería estar el archivo html
+
 # COMPLETAR CON LA RESPUESTA A LA PREGUNTA
 
 ### Ir a https://html5up.net/ y descargar un template gratuito, descomprirlo dentro de nginx/html
 ### ¿Qué sucede al ingresar al servidor de nginx?
+
+Aparece la página de la plantilla descargada
 # COMPLETAR CON LA RESPUESTA A LA PREGUNTA
 
 ### Eliminar el contenedor
+
+docker rm srv-vol
 # COMPLETAR CON EL COMANDO
 
 ### ¿Qué sucede al crear nuevamente el mismo contenedor con volumen de tipo host a los directorios definidos anteriormente?
 # COMPLETAR CON LA RESPUESTA A LA PREGUNTA
-
+Sigue apareciendo la página de la plantilla descargada
 ### ¿Qué hace el comando pwd?
 # COMPLETAR CON LA RESPUESTA A LA PREGUNTA
 Si quieres incluir el comando pwd dentro de un comando de Docker, lo puedes hacer de diferentes maneras dependiendo del shell que estés utilizando.
