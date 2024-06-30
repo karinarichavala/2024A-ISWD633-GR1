@@ -39,6 +39,8 @@ docker rm srv-vol
 # COMPLETAR CON LA RESPUESTA A LA PREGUNTA
 Sigue apareciendo la página de la plantilla descargada
 ### ¿Qué hace el comando pwd?
+
+El comando pwd muestra la ruta del directorio actual
 # COMPLETAR CON LA RESPUESTA A LA PREGUNTA
 Si quieres incluir el comando pwd dentro de un comando de Docker, lo puedes hacer de diferentes maneras dependiendo del shell que estés utilizando.
 
