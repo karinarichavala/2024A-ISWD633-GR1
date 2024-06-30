@@ -8,6 +8,9 @@ docker volume create <nombre volumen>
 ```
 
 ### Crear el volumen nombrado: vol-postgres
+
+docker volume create vol-postgres
+
 # COMPLETAR CON EL COMANDO
 
 ## MOUNTPOINT
@@ -18,6 +21,8 @@ Por ejemplo, en Windows las unidades de almacenamiento (como `C:`, `D:`, etc.) a
 Cuando creas un volumen nombrado, Docker asigna un punto de montaje específico en el sistema de archivos del host para ese volumen.
 
 ### ¿Cuál es el Mountpoint de vol-postgres?
+
+ "/var/lib/docker/volumes/vol-postgres/_data"
 # COMPLETAR CON LA RESPUESTA A LA PREGUNTA
 
 ### Estructura del Punto de Montaje:
@@ -35,6 +40,9 @@ docker run -d --name <nombre contenedor> -v <nombre volumen>:<ruta contenedor> <
 ```
 
 ### Crear la red net-drupal de tipo bridge
+
+docker network create net-drupal
+
 # COMPLETAR CON EL COMANDO
 
 ### Crear un servidor postgres vinculado a la red net-drupal, completar la ruta del contenedor
