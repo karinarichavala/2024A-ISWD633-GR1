@@ -13,7 +13,7 @@ En el esquema del ejercicio la carpeta contenedor (a) es /var/lib/mysql
 Ruta carpeta host: .../ejercicio3/db
 
 ### ¿Qué contiene la carpeta db del host?
-Los archivos de la base de datos MySQL
+Está vacía
 # COMPLETAR CON LA RESPUESTA A LA PREGUNTA
 
 ### Crear un contenedor con la imagen mysql:8  en la red net-wp, configurar las variables de entorno: MYSQL_ROOT_PASSWORD, MYSQL_DATABASE, MYSQL_USER y MYSQL_PASSWORD
